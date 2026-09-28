@@ -1,0 +1,4 @@
+interface:
+  display_name: "Playable Ad Project Init"
+  short_description: "Initialize a traceable playable-ad project workspace"
+  default_prompt: "Use $playable-ad-project-init to create a safe project skeleton from my supplied brief and assets without implementing the ad."

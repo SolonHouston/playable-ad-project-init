@@ -1,0 +1,30 @@
+project: "{{PROJECT_NAME}}"
+created: "{{CREATED_DATE}}"
+status: "待盘点"
+
+# 保留原始路径与文件名。裁剪、压缩、转码、重命名、重绘和调色都需要批准。
+assets: []
+
+# 建议条目结构：
+# - id: "A-001"
+#   source_path: "assets/inbox/example.png"
+#   type: "image"
+#   properties: "尺寸、比例、透明度、时长或编码"
+#   intended_use: "待确认"
+#   target_slot: "待确认"
+#   transformation: "none / 待批准"
+#   status: "available / missing / unreadable / conflict / pending"
+#   source_evidence: "策划案页码、截图编号或用户确认"
+#   notes: ""
+
+missing_assets: []
+
+# 建议条目结构：
+# - id: "M-001"
+#   name: ""
+#   required_format: ""
+#   dimensions_or_duration: ""
+#   intended_use: ""
+#   priority: "P0阻塞 / P1重要 / P2可后置"
+#   blocked_scope: ""
+#   status: "待用户提供"
