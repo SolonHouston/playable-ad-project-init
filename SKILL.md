@@ -44,4 +44,3 @@ After running the script:
 3. Confirm no files outside the new project directory changed.
 4. Report the created path and list inputs still needed: planning brief, reference playable or media, source code when applicable, asset package, target platform, and delivery constraints.
 5. Stop after initialization. Recommend using `$playable-ad-workflow` for requirement confirmation and staged implementation when it is available, but do not invoke it automatically.
-
